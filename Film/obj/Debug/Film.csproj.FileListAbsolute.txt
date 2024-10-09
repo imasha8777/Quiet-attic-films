@@ -1,0 +1,66 @@
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\bin\Debug\Film.exe.config
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.csprojResolveAssemblyReference.cache
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form2.resources
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Properties.Resources.resources
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.csproj.GenerateResource.Cache
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\bin\Debug\Film.exe
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\bin\Debug\Film.pdb
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.exe
+c:\users\orion pc-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.pdb
+C:\Users\Orion PC-01\Documents\Visual Studio 2012\Projects\Film\Film\obj\Debug\Film.Form3.resources
+F:\Visual Studio 2012\Projects\Film\Film\bin\Debug\Film.exe.config
+F:\Visual Studio 2012\Projects\Film\Film\obj\Debug\Film.exe
+F:\Visual Studio 2012\Projects\Film\Film\obj\Debug\Film.pdb
+E:\Visual Studio 2012\Projects\Film\Film\bin\Debug\Film.exe.config
+E:\Visual Studio 2012\Projects\Film\Film\obj\Debug\Film.exe
+E:\Visual Studio 2012\Projects\Film\Film\obj\Debug\Film.pdb
+F:\Film\Film\bin\Debug\Film.exe.config
+F:\Film\Film\obj\Debug\Film.exe
+F:\Film\Film\obj\Debug\Film.pdb
+C:\Users\ESOFT\Documents\Film\Film\bin\Debug\Film.exe.config
+C:\Users\ESOFT\Documents\Film\Film\obj\Debug\Film.exe
+C:\Users\ESOFT\Documents\Film\Film\obj\Debug\Film.pdb
+E:\Film\Film\bin\Debug\Film.exe.config
+E:\Film\Film\obj\Debug\Film.exe
+E:\Film\Film\obj\Debug\Film.pdb
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.WELCOME.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Login.resources
+F:\Film\Film\obj\Debug\Film.csprojResolveAssemblyReference.cache
+F:\Film\Film\obj\Debug\Film.WELCOME.resources
+F:\Film\Film\obj\Debug\Film.login.resources
+F:\Film\Film\obj\Debug\Film.Form3.resources
+F:\Film\Film\obj\Debug\Film.Properties.Resources.resources
+F:\Film\Film\obj\Debug\Film.csproj.GenerateResource.Cache
+E:\Film\Film\obj\Debug\Film.csprojResolveAssemblyReference.cache
+E:\Film\Film\obj\Debug\Film.WELCOME.resources
+E:\Film\Film\obj\Debug\Film.production.resources
+E:\Film\Film\obj\Debug\Film.Form11.resources
+E:\Film\Film\obj\Debug\Film.LocationHandling.resources
+E:\Film\Film\obj\Debug\Film.Form13.resources
+E:\Film\Film\obj\Debug\Film.login.resources
+E:\Film\Film\obj\Debug\Film.Form3.resources
+E:\Film\Film\obj\Debug\Film.Form4.resources
+E:\Film\Film\obj\Debug\Film.Form9.resources
+E:\Film\Film\obj\Debug\Film.Properties.Resources.resources
+E:\Film\Film\obj\Debug\Film.csproj.GenerateResource.Cache
+E:\Film\Film\bin\Debug\Film.exe
+E:\Film\Film\bin\Debug\Film.pdb
+E:\Film\Film\obj\Debug\Film.Form1.resources
+E:\Film\Film\obj\Debug\Film.Form2.resources
+E:\Film\Film\obj\Debug\Film.Form5.resources
+E:\Film\Film\obj\Debug\Film.Form6.resources
+E:\Film\Film\obj\Debug\Film.Form7.resources
+E:\Film\Film\obj\Debug\Film.Form8.resources
+F:\Film\Film\bin\Debug\Film.exe
+F:\Film\Film\bin\Debug\Film.pdb
+F:\Film\Film\obj\Debug\Film.Form1.resources
+F:\Film\Film\obj\Debug\Film.Form2.resources
+F:\Film\Film\obj\Debug\Film.Form5.resources
+F:\Film\Film\obj\Debug\Film.Form6.resources
+F:\Film\Film\obj\Debug\Film.Form7.resources
+F:\Film\Film\obj\Debug\Film.Form8.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form1.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form5.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form6.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form7.resources
+C:\Users\Orion PC-01\documents\visual studio 2012\Projects\Film\Film\obj\Debug\Film.Form8.resources

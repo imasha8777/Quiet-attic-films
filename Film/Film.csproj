@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5390EEDF-DC0A-4EF9-A285-2CD3A411158A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Film</RootNamespace>
+    <AssemblyName>Film</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client Handling .Designer.cs">
+      <DependentUpon>Client Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlConnection.cs" />
+    <Compile Include="Staff Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Handling .Designer.cs">
+      <DependentUpon>Staff Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Production Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production Handling .Designer.cs">
+      <DependentUpon>Production Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Property Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Property Handling .Designer.cs">
+      <DependentUpon>Property Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location Handling .Designer.cs">
+      <DependentUpon>Location Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Handling .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment Handling .Designer.cs">
+      <DependentUpon>Payment Handling .cs</DependentUpon>
+    </Compile>
+    <Compile Include="logInForm.cs" />
+    <Compile Include="Log In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log In.Designer.cs">
+      <DependentUpon>Log In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Client Handling .resx">
+      <DependentUpon>Client Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Handling .resx">
+      <DependentUpon>Staff Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production Handling .resx">
+      <DependentUpon>Production Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Property Handling .resx">
+      <DependentUpon>Property Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location Handling .resx">
+      <DependentUpon>Location Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment Handling .resx">
+      <DependentUpon>Payment Handling .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log In.resx">
+      <DependentUpon>Log In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teahub.io-captain-america-wallpaper-101097.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pxfuel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2056374.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bJzNch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4iaEa4-movie-backgrounds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\288302-movie-posters-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retro-film-reel-with-burning-light_271825-42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dazzling-hollywood-graphic-art-mm1h92q3sw6rf88b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_1084452.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-aksonsat-uanthoeng-1078850.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-film-reel-95lvqpuyozhyrhqm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-film-reel-95lvqpuyozhyrhqm %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-film-reel-95lvqpuyozhyrhqm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare-cropped.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-film-reel-95lvqpuyozhyrhqm2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-aksonsat-uanthoeng-10788502.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locc.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
